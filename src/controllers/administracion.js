@@ -57,7 +57,7 @@ export async function allDaysData(req,res) {
             message: "No estás autorizado a realizar esta petición."
         })
     }
-
+    
     try {
         const today = dayjs().format("YYYY-MM-DD")
         const threeMonthsFromNow = dayjs().add(3, 'month').format('YYYY-MM-DD')
@@ -84,7 +84,6 @@ export async function allDaysData(req,res) {
         }
          
     } catch (error) {
-        
         return res.status(500).json({
             status: "error",
             message: "Ocurrió un error"
