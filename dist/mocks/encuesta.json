@@ -1,0 +1,16 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "Per quale servizio vuoi prenotare?",
+            "answers": [
+                {"name": "Pachetto premium", "pricing": 250}, 
+                {"name": "Pachetto Top (taglio forma e styling)", "pricing": 200}, 
+                {"name": "Pachetto base (taglio punte e styling)", "pricing": 150}, 
+                {"name": "Pachetto Recupero", "pricing": 100}, 
+                {"name": "Trattamento e Styling", "pricing": 100}, 
+                {"name": "Bambini (dagli 8 ai 13 anni)", "pricing":100}
+            ]
+        }
+    ]
+}
